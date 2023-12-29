@@ -1,0 +1,26 @@
+/* Temporary border for testing */
+
+.border {
+  border: 3px solid red;
+  margin: 2px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-color-gray {
+  background-color: #121212;
+}
+
+.justify-spacebetween {
+  justify-content: space-between;
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: black;
+}
+
+.left {
+  width: 25vw;
+}
+
+.right {
+  width: 75vw;
+}
+
+.home {
+  padding: 24px;
+  height: 25vh;
+  min-height: 130px;
+  min-width: 135px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.home ul {
+  list-style: none;
+}
+
+.home ul li {
+  width: 20px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.library {
+  height: 35vh;
+  padding: 24px;
+  min-height: 200px;
+  border-radius: 10px;
+}
+
+.library-image {
+  width: 22px;
+}
+
+.plus-icon {
+  width: 20px;
+}
+
+.library-content {
+  gap: 15px;
+}
+
+.footer {
+  height: 35vh;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 24px;
+  gap: 10px;
+  min-height: 200px;
+  border-radius: 10px;
+}
+
+.footer div a {
+  text-decoration: none;
+  color: #7e7676;
+  font-weight: 300;
+  font-size: small;
+}
